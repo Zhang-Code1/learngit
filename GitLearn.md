@@ -88,6 +88,10 @@ $ git push origin master
 ```
 $ git remote    # 简略信息
 $ git remote -v # 详细信息
+<<<<<<< HEAD
+=======
+
+>>>>>>> 33e2ccd293350d5e82bc776e16229d721d5cf160
 ```
 ##### 删除远程库
 ```
@@ -150,7 +154,11 @@ $ git stash apply stash@{0}
 ```
 git cherry-pick <commit_id>
 ```
+<<<<<<< HEAD
 ##### 把分叉提交变成直线
 ```
 $ git rebase
 ```
+=======
+
+>>>>>>> 33e2ccd293350d5e82bc776e16229d721d5cf160

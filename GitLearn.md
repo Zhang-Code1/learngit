@@ -124,4 +124,20 @@ $ git branch -d <name>
 ```
 $ git log --graph
 ```
-
+##### 禁用Fast forward合并
+```
+$ git merge --no-ff -m "message" <branch name>
+```
+##### “储藏”当前工作现场
+```
+$ git stash
+```
+##### 工作现场查看
+```
+$ git stash list
+```
+##### 恢复工作现场
+```
+$ git stash apply # 恢复后stash内容不删除，需要用git stash drop 删除
+$ git stash popp # 恢复后删除stash内容
+```

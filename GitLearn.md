@@ -86,7 +86,9 @@ $ git push origin master
 ```
 ##### 查看远程库信息
 ```
-$ git remote -v
+$ git remote    # 简略信息
+$ git remote -v # 详细信息
+
 ```
 ##### 删除远程库
 ```
@@ -141,3 +143,12 @@ $ git stash list
 $ git stash apply # 恢复后stash内容不删除，需要用git stash drop 删除
 $ git stash popp # 恢复后删除stash内容
 ```
+##### 恢复指定stash
+```
+$ git stash apply stash@{0}
+```
+##### 复制特定的提交到当前分支
+```
+git cherry-pick <commit_id>
+```
+
